@@ -23,14 +23,13 @@ Unlike classic Tic Tac Toe, players can place moves in **superposition**, and a 
 
 ## 🚀 How to Run
 
-1. **Clone the repository:**
+1. **Clone the repository:** git clone https://github.com/VivekKatuwal/Quantum-Tic-Tac-Toe.git
+2. **Navigate to the project folder:** cd Quantum-Tic-Tac-Toe
+3. **Compile the Java file:**javac QuantumTicTacToe.java
+4. **Run the program:** java QuantumTicTacToe
 
-2. **Navigate to the project folder:**
 
-3. **Compile the Java file:**
-
-4. **Run the program:**
-
+---
 
 ## 🎯 Gameplay
 - Players input **two positions (0–8)** per turn for superposed moves.  
