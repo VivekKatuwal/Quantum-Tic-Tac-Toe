@@ -31,11 +31,28 @@ Unlike classic Tic Tac Toe, players can place moves in **superposition**, and a 
 
 ---
 
-## 🎯 Gameplay
-- Players input **two positions (0–8)** per turn for superposed moves.  
-- Moves exist in **superposition** until a **cycle** is detected.  
-- Opponent chooses which move **collapses** when a cycle occurs.  
-- Game continues until **X** or **O** wins, or the board is full.
+## 🎮 Gameplay
+
+Quantum Tic Tac Toe introduces **quantum mechanics principles** into the classic game:
+
+1. **Superposed Moves:**  
+   - Each player, on their turn, inputs **two positions (0–8)** where they want to place their move.  
+   - Both positions are considered **tentative moves** simultaneously, existing in **superposition** until the board collapses.  
+
+2. **Cycle Detection:**  
+   - The game continuously checks for **cycles** formed by overlapping moves between X and O.  
+   - A cycle occurs when moves link back to each other, creating a **loop of superposed states**.  
+
+3. **Collapse Mechanism:**  
+   - When a cycle is detected, the **opponent** gets to decide which move in the cycle **collapses** into a classical state (X or O).  
+   - This collapse converts the quantum board into a **classical configuration**, resolving overlaps.  
+
+4. **Winning Conditions:**  
+   - After each collapse, the board is checked for a **winner** in rows, columns, or diagonals.  
+   - The game continues until either **X or O wins** or the board is **completely filled** with no available moves.  
+
+This gameplay makes Quantum Tic Tac Toe **strategically deeper** than the classic version, combining **logic, anticipation, and a bit of quantum chaos**!
+
 
 ---
 
